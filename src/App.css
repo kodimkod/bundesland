@@ -1,0 +1,119 @@
+@media (max-width: 500px) {
+
+    .stateBox {
+        background-color: lightgrey;
+        width: 100%;
+    }
+    .stateHeader {
+        width: 100%;
+    }
+}
+
+@media (min-width: 501px) and  (max-width: 800px) {
+    .stateBox {
+        background-color: lightgrey;
+        width: 50%;
+    }
+    .stateHeader {
+        width: 100%;
+    }
+}
+
+@media (min-width: 801px) {
+    .App-header {
+        max-width: 1024px;  
+    }
+    .stateBox {
+        background-color: lightgrey;
+        width: 33%;
+        max-width: 33%;
+    }
+    .stateHeader {
+        width: 99%;
+    }
+}
+
+.App {
+    text-align: center;
+    background: white;
+}
+
+.App-header {
+    background-color: white;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.stateBox {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.containerBox {
+    background: white;
+    padding: 0px;
+    margin: 10px;
+    height: 60px;
+}
+.stateBox:hover {
+    background-color: #7D3C98;
+    cursor: pointer;
+}
+.stateName {
+    color: #000000;
+    text-align: left;
+    font-size: 0.5em;
+}
+.stateSchoolCount {
+    color: lightgray;
+    text-align: left;
+    padding-top: 5px;
+    font-size: 0.5em;
+}
+.stateHeader {
+    text-align: left;
+    padding: 0px 0px;
+    margin: 0px;
+    background-color: #c0c0c0;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.stateHeaderTitle {
+    padding-left: 5px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.insideContainer {
+    padding: 10px;
+}
+.personBox {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    margin: 5px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.personContainer {
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+    text-align: left;
+}
+.personIndexTitle {
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    line-height: 2.4em;
+}
